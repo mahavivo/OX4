@@ -1,0 +1,182 @@
+2022年02月11日更新：
+
+OX-7版对文本做了如下修订：
+
+1）与可能的牛高四“yru版”mdx词头对比，增补近200个词头；
+
+2）与endnote版牛高四的标准词头（standard标签）对比，修订了几十个原文中不准确的法文、西班牙文单词词头；
+
+3）与txt81网站下载的牛高4网络文档比较，增补400多个本属于衍生词部分的词头（主要是以“-”开头的词缀和“the”开头的词组，这明显属于原发布者故意删除、破坏）；
+
+4）遗漏的繁体字“摺”替换为“折”；
+
+5）若干其他小错误顺手修正，比如Π、π。
+
+
+
+
+2022年02月08日更新：
+
+OX-6版主要做的文本修订如下所述：
+
+1）根据pdawiki网友achallan提供的单词粘连和拼写错误清单，纠正全文2000处左右此类失误。此清单难能可贵的是找出来了一些原纸本书本身（包括光盘）就有的文字讹误，计有
+
+formly
+formaly
+responsibilty
+newpaper
+countly
+perfomance
+exultaion
+gentlement
+responsibilites
+continous
+youself
+mountians
+improbablity
+goverment
+reponsible
+prinicipals
+magnificient
+succesful
+activites
+spendours
+terrifed
+tranqullizing
+effecton
+regulary
+measureable
+
+等。虽然纠正过程中我没有一一核对原书，但就部分核查过的单词而论，我手上的牛高4纸本也是错的。
+
+2）在修正单词粘连错误时，发现原始txt底本存在某些词条释义不完整、被中途截断的现象，设法清查（比如用正则 [^.?!＇] \n★ 搜索），找到以下所列词条大量阙文，于是从yru版插图牛高4 mdx中补充缺失文本。
+
+away
+
+back bad balance bar beat beg begin believe bend best better between big bind bit bite block blow board body boil bone bottom bread break breath bring business but buy
+
+consider
+
+firm
+
+nadir
+
+quiet
+
+spy
+
+up use
+
+value variety view virtue vision viz voice volume
+
+want
+
+3）补充全文缺失英镑符号 £ 400处左右，修正若干ä、ç、ô、∨、∧等形式的特殊符号。
+
+
+
+
+2022年02月05日更新
+
+OX-5版本主要集中校改因编码缘故而导致的异常字符，大概可能有500-600处（除显示为空白的，也有显示为问号的），一一根据原书校正，顺便修复了若干其他字符错误。另外，发现几处词条重复，予以删除，也有词条不完整的，如vote，根据繁体epub版补充。
+
+
+
+
+2022年02月02日更新
+
+1）继续纠正音标乱码修复过程中的毛病，查出上一版中未曾修正的失误有200-300个左右。
+
+2）处理繁简转换未彻底导致的遗留事项。要说具体有多少繁体字未完成转换，不清楚，但比较明显的有“後、於、麽、著、乾、覆”等，这些字里“著”比较难对付，既作“着”用，也作“著名、著作”等用，凡3000余处。简单通改是行不通的，即使先拟定一个包含“著”的词汇表，再替换，也很容易出问题，因为文中很可能出现你假想的词汇之外其他“著”的用法，像牛高4其他版本中，有“拙着”（拙著，见immodest词条）这样的表述，而包含“著”的成语基本上全改错了。我采用的办法是通览所有3000多个含有“著”一字的句子，看看文中真正用作“著”的词汇有哪些，查找出来再遮掩住修改。词典中“著”用法的词汇统计结果如下：
+
+著
+
+土著
+原著
+著名
+新著
+显著
+著者
+著作
+著称
+名著
+著述
+巨著
+拙著
+
+臭名昭著
+所著之书
+恶名昭著
+
+名声卓著
+声誉卓著
+
+3）英文不规范的引号修正。改`today’中左单引号的 ` 为 ’ ，当然，严格来说，这依然是不规范的（可搜索直引号和弯引号的区别），但起码与原文中的右单引号保持了一致。凡500余处。
+
+想了一下，不打算修改原文中文部分所使用的标点符号，1）与纸本一致，2）数量大，容易漏改或误伤，3）算个人爱好问题，不喜欢或不习惯可以自己改。
+
+因中文编码而引致的显示不正常字符计划下一版本修正，它数量不少，改起来要一一查书确认，比较麻烦，单独出一个版本也有利于纠谬。
+
+
+
+
+缘起——原始帖文
+
+《牛津高阶英汉双解词典》第4版可谓业界经典，自出版以来近30年声名不衰，迄今依然受广大英语学习爱好者追捧。其纯文本早已有好事者在网上公之于众，但品质不佳，问题甚夥，最惹眼的莫过于因使用金山音标字体导致的注音“乱码”，看着就令人闹心生厌。虽然现在此词典已有颇为完善的mdx版本，使用便捷，但纯文本文件自有其妙处，比如不受平台限制，不依赖词典软件，全文搜索方便，词条可按顺序浏览，易于转换成Word、PDF标注做笔记等，所以我计划对此文本做以校改修正，不说要多么完美，最起码基本可用吧。
+
+校改的版本基础为我早年收集的缺少“L”词条的TXT文件，其缺失内容从 牛津大学英语词典txt下载-八一下载网 8 处的文档补充，不直接使用此网站文件是因为它存在一些缺陷，例如音标里的US字样被删除，部分英文单词间的空格消失。不过这个网络文档也有一些长处，比如某些以the开头的词条（the unconscious等）在我的文件里没有，它却是完整的，以后可以通过对比补充找回。
+
+此最基础的底本我称之为OX.txt，其后校改更正过版本会依序命名为OX-1、OX-2……OX-n等，在此首先贴出的版本是OX-3.txt.
+
+OX-3在原始底本（OX.txt）上做了以下修正：
+
+1）校正音标乱码。修改的办法是先用程序，谨慎使用正则，以免过多误伤，但因为谨慎，会导致少量音标乱码没有被改正，于是再用正则查找手工纠正。尽管如此，以我的经验，正则批量修改肯定会出想不到的意外，一种是误伤，修改了不是音标的字符，一种是仍然有躲藏着没被修正的音标，抽样目测了一下，这种情况还是比较少的，在可接受范围以内。
+
+2）完善词头（headword）标签。在词典纯文本文件里，把词头全部标注清楚是比较重要的，不然混在正文中很难进一步加工，就是阅读也困难，找不到重点目标所在。原始文件本身在词头前有“★”标签，但遗漏很多，于是设法（正则查找+目测检视等）一一补充，目前得词头44060个。可能继续会有遗漏，应该很少。
+
+以我的标准，经过如上修正，OX-3算勉强可用，最起码没有无数音标乱码闹心碍眼了，在chrome、VS code或者Notepad++里打开全文浏览、搜索，是比较方便的。
+
+在这里发布的版本（OX-3）只是计划中一系列修正的起点，目前我想到的还可以继续校改的问题有：
+
+a、纠正上一步音标和标签修改中的错误。
+
+b、处理繁简转换导致的错误，像“後、於、麽、著、乾”等。
+
+c、英文引号标点混乱纠正。比如 In the word `today’ the accent is on the second syllable. ——`today’前的字符并不是正规的英文引号，但它不是简单替换就能修正的，因为词典中原先音标里的重音，正文短语里标注重音，用的是同样的符号。怎么只修改引号用法的`，而不伤其他令人头痛。
+
+d、修正中文标点。是否把原文中不规范的中文引号（‘ ’）、句号（.)修改过来，此点待议。
+
+e、纠正中文当中可能因为编码问题导致的错误。原文中有些字符显示不正常，比如“错误地或愚 地付出（爱情、 情感等）”，这里空格处应该是“昧”，但却编码为 E38080 ，UTF-8内码无法显示。粗略搜了一下，类似的地方有300余处。
+
+f、修正原词典文本本身可能就有的讹误。在这里本论坛的帖子（ 接力打造完美的OALDv4再续（双解切换2022新春版） 15 ）就有很多可借鉴之处。
+
+g、补充在开头已经提到过的遗漏缺失词条。
+
+有其他未及事项，网友可补充。
+
+
+
+
+——附录：
+
+与我收集的某一牛高4 mdx（可能是yru版）解出文本（ 见 https://github.com/mahavivo/english-dictionary/tree/master/OALD4 ）程序对比，加人工核实，初步统计校改文本缺失词头（headword）如下所列：
+
+acerbic | acetic | -ade | adjacent | admonish | aftermath | afters | -age | AIDS | -al | -an | -ana | -ance, -ence | -ancy, -ency | aniseed | -ant, -ent | anticipation | antiknock | antimony | antipathy | arcane | -ard | -arian | artisan | artiste | -ary | -ate | -ation | -ative | -ator | augur | august | August | auricle | auriferous | balls | bead | become | -bellied | besom | biceps | biro | birthday | bisect | -bodied | bop | buckler | by- | carcinogen | cheers | cheery | -cide | cirrhosis | cirrus | cissy | Cistercian | cistern | citadel | cite | comely | contentious | contest | context | CONTRA | COORDINATE | CO-ORDINATE | -cracy | -crat | -cy | -d | Dail Eireann | despot | -dom | -ectomy | -ed | -ee | -eer | 'em | embrace | -en | -ence | -ent | -er | -ery | -ese | -esque | -ess | -ette | -ey | falsetto | falsify | federal | fo’c’s’le | -fold | fortunate | -ful | future | -fy | -gamy | garlic | gnome | -gon | -gram | gram | -graph | -graphy | gully | ha’p’orth | -hood | hormone | -ial | -ian | -iana | -iatrics | -iatry | -ible | -ic | -ics | -ide | -ie | -ify | -in | indispensable | indoors | institution | instruct | -ion | -ise | -ish | -ism | -ist | -ite | -ition | -itis | -ity | -ive | -ize, -ise | L/Cpl | lights | -mania | -ment | metallurgy | -meter | -metre | misgovern | -most | mynah | ne’er | ne’er-do-well | -ness | -oid | op cit | -or | -ory | -ous | overshoot | PARA | -path | -pathy | -philia | -phobia | -phone | prepuce | re-cover | ritual | ruble | -ry | -scape | -scope | -ship | -shooter | -sion | -some | -speak | -sphere | -ster | sulfide | syndrome | -th | times | -tion | toccata | toils | 'un | -ure | Virginia `creeper | vv | -ward | -ways | -wise | -xion | -y | -acy
+
+计193个。这些词头里比较瞩目的是become这么基本的词汇也丢失了。
+
+与endnote 2022新春版mdx对比，去除和“yru版”重复的数据后，单独查核出来的的“缺失”词头如下：
+
+-able | -acy | agr- | aide-mémoire | -ance | -ancy | -ant | anthrop- | appliqué | après-ski | arête | attaché | aut- | blasé | bric-à-brac, bric-a-brac | bête noire | café, cafe | canapé | cardi- | cent- | chargé d’affaires | chron- | château | cliché | communiqué | compère, compere | consommé | coupé | crypt- | crème de la crème | crème de menthe | débutante | début | dem- | derm- | diamanté | débâcle, debacle | décolleté | décor, decor | déjà vu | démarche, demarche | déshabillé | détente | electr- | entrepôt, entrepot | entrée, entree | Eur- | exposé, expose | façade, facade | flambé | fête, fete | glacé | -graphical | gruyère | habitué | hect- | hex- | -ian | ingénue, ingenue | -ion | is- | -ize | kümmel | lycée | manqué | matinée | -metre | mise-en-scène | mélange | ménage, menage | mésalliance | métier | mêlée, melee | necr- | neur- | née, nee | orth- | outré | pant- | passé | path- | phil- | phon- | physi- | pied-à-terre | pietà | pièce de rèsistance | première, premiere | prot- | précis | pseud- | psych- | pâté | quadr- | raison d’être | recherché | retroussé | risqué | rosé | roué | résumé | röntgen | sauté | sept- | señor | soigné | soirée, soiree | son et lumière | table d’hôte | tel- | tetr- | the- | therm- | touché | tête-a-tête | Virginia creeper | vis-à-vis | à la carte | à la mode | éclair | éclat | élite, elite | émigré, emigré | épée, epee
+
+共计124个。不过值得注意的此处很多“缺失”词头其实在原文中不缺，只是拼写有异，没有用正确的法文字符。
+
+按照endnote版mdx初步统计，牛高4共有标准词头22206个，习语7755个，动词短语2963个，衍生词、复合词18565个。查yru版mdx，共有词头22640个。标准词头的统计、对比和查漏相对容易，但限于牛高4原始文本的形式（没有数据库化，也没有特别标签，词组中还夹杂有重音符号等），衍生词-复合词，习语，动词短语要一一准确对比和查漏比较困难。
+
+与主帖中所述及牛高4网络文档比较，初步统计校改文本缺少如下词头，共计478个，主要归属于衍生词部分，明显是原制作发布者故意删除。
+
+-ability, -ibility | -ability, -ibility | -able, -ible | -able, -ible | -ably, -ibly | -acy | -ade | -age | -al | -ally | -an | -ana | -ance, -ence | -ance, -ence | -ancy, -ency | -ancy, -ency | -ant, -ent | -ant, -ent | -ard | -arian | -ary | -ary | -ate | -ately | -ation | -ative | -atively | -ator | -bedded | -behaved | -bellied | -bellied | -bodied | -born | -bound | -brimmed | -burger | -cheeked | -chested | -cidal | -cide | -cornered | -cracy | -craft | -crat | -cratic | -cy (also -acy) | -d | -decker | -deep | -dimensional | -dom | -eared | -ectomy | -ed (also -d) | -edged | -ee | -eer | -en | -ence | -ent | -er | -ery (also -ry) | -ese | -esque | -ess | -ess | -ette | -ey | -eyed | -faced | -faceted | -fired | -flavoured (US -flavored) | -fold | -footed | -footed | -footer | -footer | -former | -free | -friendly | -ful | -fy | -gamous, -gamously | -gamy | -goer | -gon | -gonal | -grained | -gram | -graph | -grapher | -graphic(al) | -graphy | -haired | -handed | -handled | -headed | -hearted | -heeled | -hipped | -hood | -hued | -humoured (US -humored) | -ial | -ially | -ian (also -an) | -iana (also -ana) | -iatric | -iatric, -iatrical | -iatrics | -iatry | -ible | -ic | -ical | -ical | -ically | -ics | -ide | -ie | -ify (also -fy) | -ily | -in | -in-chief | -iness | -intensive | -intentioned | -ion (also -ation, -ition, -sion, -tion, -xion) | -ise | -ise, -ize | -ish | -ism | -ist | -ist | -ite | -ition | -itis | -ity | -ive | -ization, -isation | -izationally, -isationally | -ize, -ise | -man | -man | -mania | -maniac | -mannered | -manship | -manship | -masted | -ment | -mental | -mentally | -mentioned | -meter | -metre (US -meter) | -most | -mouthed | -natured | -ness | -nosed | -oid | -orientated | -ory | -ous | -path | -path | -pathic | -pathy | -phile (also -phil) | -philia | -philiac | -phobe | -phobia | -phobic | -phone | -phonic | -pronged | -raiser | -resistant | -rimmed | -roomed | -ry | -saving | -scape | -scope | -scopic(al) | -scopy | -seater | -sexed | -shaped | -ship | -shooter | -shy | -sick | -sided | -sighted | -sion | -sized | -skinned | -skulled | -sleeved | -soled | -some | -sounding | -speak | -sphere | -spheric (also -spherical) | -spirited | -spoken | -stemmed | -ster | -suited | -syllabled | -tailed | -tasting | -tempered | -th | -throated | -tiered | -tion | -toned | -tongued | -ure | -voiced | -waisted | -ward | -wards (also esp US -ward) | -ways | -wheeled | -wheeler | -wide | -willed | -wise | -witted | -woman | -worthy | -xion | -y | -y (also -ey)
+
+the ,South Pole | the ,Supreme Being | the Almighty | the Antarctic | the Antarctic Circle | the Arctic | the Arctic Circle | the Ark of the Covenant | the Authorized Version | the Black Country | the Black Death | the Blessed | the Blessed Sacrament | the British | the British Isles | the Broads | the Bronze Age | the Christian Era | the Church of England | the Civil Service | the Common Market (also the European EconomicCommunity) | the Communist Party | the Conservative Party | the Coptic Church | the Corn Laws | the Dark Ages | the Dark Continent | the East End | the Eastern Bloc | the English Channel (also the Channel) | the Eternal City | the European Economic Community (abbr 缩写 EEC) | the Far East | the Far West | the First World War (also World War I) | the Foreign and Commonwealth Office (abbr 缩写 FCO) | the Grand National | the Great Bear | the Great Lakes | the Great War | the Green Party | the Gulf Stream | the Holy City | the Holy Father | the Holy Ghost | the Holy Grail | the Holy Land | the Holy See | the Holy Spirit (also the Holy Ghost) | the Home Counties | the Home Guard | the Home Office | the House of Commons (also the Commons) | the House of Lords (also the Lords) | the House of Representatives | the Houses of Parliament | the Immaculate Conception | the Industrial Revolution | the Infinite | the Iron Age | the Iron Curtain | the Jolly Roger | the Last Judgement | the Last Supper | the Metropolitan Police (also the Met) | the Middle Ages | the Middle East | the Middle West | the Midlands | the Midwest | the Milky Way | the National Debt | the New Testament | the New World | the North Country | the North Pole | the Old Testament | the Old World | the Olympic Games | the Open University | the Orthodox Church (also The Eastern Orthodox Church) | the Peak District | the Pilgrim Fathers (also the Pilgrims) | the Pleistocene | the Pliocene | the Press Association (abbr 缩写 PA) | the Queen’s English | the Redeemer | the Revised Standard Version | the Roman alphabet | the Security Council | the Social and Liberal Democrats (abbr 缩写 SLD) | the Son of God, the Son of Man | the Spanish Main | the Stars and Stripes | the State Department | the Stone Age | the Supreme Court | the Supreme Soviet | the Union Jack (also the Union flag) | the United Kingdom (abbr 缩写 (the) UK) | the United Nations (abbr 缩写 (the) UN) | the United States (of America) (abbrs 缩写 (the) US, USA) | the Upper Chamber (also the Upper House) | the West Country | the West End | the White House | the Wild West | the women's movement | the absolute | the accused | the ancients | the armed forces, the armed services | the assured | the beau monde | the bereaved | the blind | the body politic | the burden of proof | the class struggle (also the class war) | the damned | the deceased | the deep South | the departed | the dispossessed | the dog-star | the elect | the electric chair | the evening star | the fair sex | the faithful | the fallen | the few | the fine print | the first person | the foregoing | the former | the front bench | the front line | the generation gap | the golden mean | the gripes | the handicapped | the high jump | the high sea (also the high seas) | the holy of holies | the home front | the home straight (also esp US the home stretch) | the homeless | the human race | the impossible | the inevitable | the infirm | the initiated | the insane | the insured | the jet set | the jitters | the just | the kiss of life | the last post | the last rites | the many | the metric system | the middle distance | the midnight sun | the military | the missing | the money supply | the morning star | the next | the northern lights | the occult | the old | the old country | the old guard | the once | the open | the open sea | the open season | the oppressed | the poor | the priesthood | the rag trade | the rank and file | the ravages | the rich | the rising generation | the roadway | the sack | the sack | the safe period | the same | the sandman | the second coming | the seventh day | the small hours | the solar system | the solar year | the sterling area | the sulks | the supernatural | the synoptic gospels | the unconscious | the undermentioned | the underprivileged | the undersigned | the unemployed | the unexpected | the unwaged | the unwary | the utmost (also the uttermost) | the vitals | the weak | the wicked | the working class (also the working classes) | the yellow press
+
+(right) up one’s street | April Fool’s Day | L/Cpl | Virginia creeper | a few | a fifth column | a gentleman’s agreement | a mite | a sword of Damocles | agitation | askance (at sb/sth) | be taken with sb/sth | cent(i) | incompre-hensibly | lawcourt (also court of law) | like a ton of bricks | make bricks without straw | on the quiet | take the bread out of sb's mouth | will-o-the-wisp
